@@ -1,11 +1,13 @@
 import express from 'express';
 import mongoose from "mongoose";
+import userRouter from "./Routers/UserRouter.js";
 
 const app = express()
 const PORT = 8000
 const DB_URL = "mongodb+srv://admin:admin@cluster0.1peuh56.mongodb.net/?retryWrites=true&w=majority"
 
 app.use(express.json())
+app.use(userRouter)
 
 const startApp = async () => {
   try {
