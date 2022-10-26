@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="478e766f-bb7e-4b08-84fc-35b905050782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/UserController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Routers/UserRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/UserService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/CategoryController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Routers/CatagoryRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CategoryService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
@@ -82,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666791076350</updated>
       <workItem from="1666791077871" duration="3118000" />
-      <workItem from="1666794313202" duration="139000" />
+      <workItem from="1666794313202" duration="919000" />
     </task>
     <servers />
   </component>
