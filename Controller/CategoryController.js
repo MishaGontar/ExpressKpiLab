@@ -10,6 +10,15 @@ class CategoryController {
       res.status(500).json(e.message)
     }
   }
+
+  async getAll(req, res) {
+    try {
+      const categories = await CategoryService.getAll()
+      res.status(200).json(categories)
+    } catch (e) {
+      res.status(500).json(e.message)
+    }
+  }
 }
 
 export default new CategoryController()
