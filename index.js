@@ -2,6 +2,7 @@ import express from 'express';
 import mongoose from "mongoose";
 import userRouter from "./Routers/UserRouter.js";
 import categoryRouter from "./Routers/CatagoryRouter.js";
+import noteRouter from "./Routers/NoteRouter.js";
 
 const app = express()
 const PORT = 8000
@@ -10,6 +11,7 @@ const DB_URL = "mongodb+srv://admin:admin@cluster0.1peuh56.mongodb.net/?retryWri
 app.use(express.json())
 app.use(userRouter)
 app.use(categoryRouter)
+app.use(noteRouter)
 
 const startApp = async () => {
   try {
