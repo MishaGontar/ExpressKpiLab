@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="478e766f-bb7e-4b08-84fc-35b905050782" name="Changes" comment="" />
+    <list default="true" id="478e766f-bb7e-4b08-84fc-35b905050782" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Routers/MainRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +55,7 @@
       <recent name="C:\Users\Михайло\IdeaProjects\KpiLabBackend\Schemas" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -73,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +97,7 @@
       <workItem from="1666884310075" duration="259000" />
       <workItem from="1667230499121" duration="64000" />
       <workItem from="1667240588655" duration="980000" />
-      <workItem from="1667241895979" duration="1598000" />
+      <workItem from="1667241895979" duration="3675000" />
     </task>
     <servers />
   </component>

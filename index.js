@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import userRouter from "./Routers/UserRouter.js";
 import categoryRouter from "./Routers/CatagoryRouter.js";
 import noteRouter from "./Routers/NoteRouter.js";
+import mainRouter from "./Routers/MainRouter.js";
 
 const app = express()
 const PORT = process.env.PORT || 8000
@@ -12,10 +13,8 @@ app.use(express.json())
 app.use(userRouter)
 app.use(categoryRouter)
 app.use(noteRouter)
+app.use(mainRouter)
 
-app.get('/', (req, res) => {
-  res.end(`<h1>Hello Misha</h1>`)
-})
 const startApp = async () => {
   try {
     await mongoose.connect(DB_URL)
