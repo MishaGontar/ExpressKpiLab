@@ -5,7 +5,7 @@ import categoryRouter from "./Routers/CatagoryRouter.js";
 import noteRouter from "./Routers/NoteRouter.js";
 
 const app = express()
-const PORT = 8000
+const PORT = process.env.PORT || 8000
 const DB_URL = "mongodb+srv://admin:admin@cluster0.1peuh56.mongodb.net/?retryWrites=true&w=majority"
 
 app.use(express.json())
