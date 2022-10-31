@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="478e766f-bb7e-4b08-84fc-35b905050782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/NoteController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Routers/NoteRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/NoteService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schemas/NoteSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/NoteSchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +80,11 @@
       <updated>1666791076350</updated>
       <workItem from="1666791077871" duration="3118000" />
       <workItem from="1666794313202" duration="2720000" />
-      <workItem from="1666809523754" duration="3150000" />
+      <workItem from="1666809523754" duration="3791000" />
+      <workItem from="1666884310075" duration="259000" />
+      <workItem from="1667230499121" duration="64000" />
+      <workItem from="1667240588655" duration="980000" />
+      <workItem from="1667241895979" duration="404000" />
     </task>
     <servers />
   </component>
