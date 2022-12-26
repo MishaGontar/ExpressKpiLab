@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="478e766f-bb7e-4b08-84fc-35b905050782" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routers/UserRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routers/UserRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schemas/NoteSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/NoteSchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schemas/UserSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/UserSchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/NoteService.js" beforeDir="false" afterPath="$PROJECT_DIR$/Service/NoteService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/Service/UserService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +105,7 @@
       <workItem from="1667241895979" duration="4797000" />
       <workItem from="1672058492358" duration="1305000" />
       <workItem from="1672078286119" duration="4243000" />
-      <workItem from="1672090508659" duration="361000" />
+      <workItem from="1672090508659" duration="1819000" />
     </task>
     <servers />
   </component>
