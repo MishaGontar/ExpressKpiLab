@@ -4,6 +4,7 @@ import userRouter from "./Routers/UserRouter.js";
 import categoryRouter from "./Routers/CatagoryRouter.js";
 import noteRouter from "./Routers/NoteRouter.js";
 import mainRouter from "./Routers/MainRouter.js";
+import currencyRouter from "./Routers/CurrencyRouter.js";
 
 const app = express()
 const PORT = process.env.PORT || 8000
@@ -14,6 +15,7 @@ app.use(userRouter)
 app.use(categoryRouter)
 app.use(noteRouter)
 app.use(mainRouter)
+app.use(currencyRouter)
 
 const startApp = async () => {
     try {
