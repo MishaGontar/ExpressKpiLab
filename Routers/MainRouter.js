@@ -17,7 +17,19 @@ mainRouter.get('/', (req, res) => {
  <li>Отримання списку записів по певному користувачу (method:GET /note/:user_id)</li>
  <li>Отримання списку записів в категорії для певного користувача (method:GET /note/:user_id/:category_id)</li>
 </ul>
-`)
+
+<div align="center">
+<h1>Lab 2</h1>
+</div>
+<h3>Зроблено:</h3>
+<ul>
+ <li>Створено валюта для користувачів (user) та витрат (note)</li>
+ <li>Також було додано ORM та валідація даних</li>
+ <li>Отримання списку користувачів (method:GET /users)</li>
+ <li>Отримання списку валют (method:GET /currencies)</li>
+ <li>Створення валюти (method:POST /currency)</li>
+</ul>
+</div>`)
 })
 
 export default mainRouter
