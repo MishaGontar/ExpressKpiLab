@@ -35,7 +35,8 @@
 
 ### Тестування ###
 
-Проект задеплоєнний за допомогою heroku щоб протестувати беремо PostMan та скачуємо колекцію по
-посиланню https://www.getpostman.com/collections/e8b6be4f9c731925055e .
-Всі команди вже є в PostMan , якщо хочете спробувати власноруч можна по
-посиланню https://gory-eyeballs-35481.herokuapp.com/
+Проект задеплоєнний за допомогою Render.com . Щоб протестувати беремо Postman та скачуємо колекцію по
+посиланню https://api.postman.com/collections/19463173-8305b7b8-d786-4493-868f-9c7ed1558fc4?access_key=PMAT-01GNACZA52QV233XVE6J5QD41W
+(це минула колекція яка оновлена)
+Всі команди вже є в Postman , якщо хочете спробувати власноруч можна по
+посиланню https://kpi-lab-express-js.onrender.com/
