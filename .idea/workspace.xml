@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="478e766f-bb7e-4b08-84fc-35b905050782" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routers/MainRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routers/MainRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schemas/CategorySchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/CategorySchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schemas/CurrencySchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/CurrencySchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schemas/UserSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/UserSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +111,7 @@
       <workItem from="1672133557004" duration="58000" />
       <workItem from="1672143382926" duration="1420000" />
       <workItem from="1672163149297" duration="2297000" />
+      <workItem from="1672601510140" duration="312000" />
     </task>
     <servers />
   </component>
@@ -131,7 +129,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lab2" />
+                        <option value="lab3" />
                       </list>
                     </value>
                   </entry>
