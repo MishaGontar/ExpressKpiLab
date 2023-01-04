@@ -9,8 +9,8 @@ class AuthController {
         const token = authHeader && authHeader.split(' ')[1]
         if (token == null) return res.sendStatus(401)
         try {
-            const user = jwt.verify(token, process.env.TOKEN_SECRET)
-            req.user = user
+            req.user = jwt.verify(token, process.env.TOKEN_SECRET)
+            console.log("Correct user", req.user)
             next()
         } catch (e) {
             console.log(e)
