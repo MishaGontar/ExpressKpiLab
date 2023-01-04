@@ -1,5 +1,4 @@
 import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
 import UserService from "../Service/UserService.js";
 import AuthService from "../Service/AuthService.js";
 
@@ -23,11 +22,9 @@ class AuthController {
             const {username, password} = req.body
             if (!password || !username) return res.status(400).json("Введіть будь ласка коректні дані")
 
-            const hashPassword = bcrypt.hashSync(password, 7)
-            const isExist = await UserService.getUser({username, hashPassword});
-
-            if (!isExist) return res.status(400).json("Введіть будь ласка коректні дані")
-
+            const user = await UserService.getUser({username: username, password: password})
+            if (user === null || !user) return res.status(400).json("Введіть будь ласка коректні дані")
+            console.log("Find ", user)
             return res.status(200).json(AuthService.generateAccessToken({username: username}))
         } catch (e) {
             console.log(e)
