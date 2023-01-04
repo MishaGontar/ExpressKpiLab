@@ -3,21 +3,23 @@ import mongoose from "mongoose";
 import userRouter from "./Routers/UserRouter.js";
 import categoryRouter from "./Routers/CatagoryRouter.js";
 import noteRouter from "./Routers/NoteRouter.js";
-import mainRouter from "./Routers/MainRouter.js";
-import currencyRouter from "./Routers/CurrencyRouter.js";
 import dotenv from "dotenv";
+import authRouter from "./Routers/AuthRouter.js";
+import currencyRouter from "./Routers/CurrencyRouter.js";
+import AuthController from "./Controller/AuthController.js";
 
 dotenv.config();
 
 const app = express()
 const PORT = process.env.PORT || 8000
 const DB_URL = "mongodb+srv://admin:admin@cluster0.gy2tj9g.mongodb.net/?retryWrites=true&w=majority"
+const routersWithoutAuth = [userRouter, authRouter]
+const routersNeedAuth = [categoryRouter, noteRouter, currencyRouter]
 app.use(express.json())
-app.use(userRouter)
-app.use(categoryRouter)
-app.use(noteRouter)
-app.use(mainRouter)
-app.use(currencyRouter)
+
+routersWithoutAuth.forEach(router => app.use(router))
+app.use(AuthController.authenticateToken)
+routersNeedAuth.forEach(router => app.use(router))
 
 const startApp = async () => {
     try {
