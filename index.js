@@ -5,11 +5,13 @@ import categoryRouter from "./Routers/CatagoryRouter.js";
 import noteRouter from "./Routers/NoteRouter.js";
 import mainRouter from "./Routers/MainRouter.js";
 import currencyRouter from "./Routers/CurrencyRouter.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express()
 const PORT = process.env.PORT || 8000
-const DB_URL = "mongodb+srv://admin:admin@cluster0.1peuh56.mongodb.net/?retryWrites=true&w=majority"
-
+const DB_URL = "mongodb+srv://admin:admin@cluster0.gy2tj9g.mongodb.net/?retryWrites=true&w=majority"
 app.use(express.json())
 app.use(userRouter)
 app.use(categoryRouter)

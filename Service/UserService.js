@@ -7,7 +7,11 @@ class UserService {
     }
 
     async getAll() {
-        return User.find().populate({path: 'currency'});
+        return User.find({},"-password").populate({path: 'currency'});
+    }
+
+    async getUser(filter) {
+        return User.findOne(filter);
     }
 }
 
