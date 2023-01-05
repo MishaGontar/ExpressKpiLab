@@ -7,13 +7,14 @@ import dotenv from "dotenv";
 import authRouter from "./Routers/AuthRouter.js";
 import currencyRouter from "./Routers/CurrencyRouter.js";
 import AuthController from "./Controller/AuthController.js";
+import mainRouter from "./Routers/MainRouter.js";
 
 dotenv.config();
 
 const app = express()
 const PORT = process.env.PORT || 8000
 const DB_URL = "mongodb+srv://admin:admin@cluster0.gy2tj9g.mongodb.net/?retryWrites=true&w=majority"
-const routersWithoutAuth = [userRouter, authRouter]
+const routersWithoutAuth = [userRouter, authRouter, mainRouter]
 const routersNeedAuth = [categoryRouter, noteRouter, currencyRouter]
 app.use(express.json())
 

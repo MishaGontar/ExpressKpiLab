@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="478e766f-bb7e-4b08-84fc-35b905050782" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/AuthController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schemas/NoteSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/NoteSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routers/CatagoryRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routers/CatagoryRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routers/MainRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routers/MainRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Schemas/UserSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/UserSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +127,7 @@
       <workItem from="1672852424879" duration="9205000" />
       <workItem from="1672862627089" duration="3185000" />
       <workItem from="1672910660007" duration="765000" />
+      <workItem from="1672921923340" duration="3887000" />
     </task>
     <servers />
   </component>
