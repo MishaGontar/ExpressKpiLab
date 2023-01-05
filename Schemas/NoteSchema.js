@@ -8,7 +8,7 @@ const Note = new mongoose.Schema({
     costs: {type: Number, required: true},
     currency: {
         type: Schema.Types.ObjectId, ref: "Currency", required: false,
-        default: "63aa0d0dc5a7a10498fb3a1b" //US
+        default: "63b5e5787bc1b324426948ac" //US
     }
 })
 

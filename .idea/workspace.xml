@@ -8,7 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/AuthController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/AuthService.js" beforeDir="false" afterPath="$PROJECT_DIR$/Service/AuthService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schemas/NoteSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/NoteSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schemas/UserSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/UserSchema.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +124,8 @@
       <workItem from="1672819827152" duration="2274000" />
       <workItem from="1672852090684" duration="322000" />
       <workItem from="1672852424879" duration="9205000" />
-      <workItem from="1672862627089" duration="396000" />
+      <workItem from="1672862627089" duration="3185000" />
+      <workItem from="1672910660007" duration="765000" />
     </task>
     <servers />
   </component>

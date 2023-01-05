@@ -12,7 +12,7 @@ class UserController {
             if (!password || !username) return res.status(400).json("Введіть будь ласка коректні дані")
 
             await UserService.create({username: username, password: password})
-            return res.status(200).json(AuthService.generateAccessToken({username: username}))
+            return res.status(200).json({token: AuthService.generateAccessToken({username: username})})
         } catch (e) {
             console.log(e)
             res.status(500).json("Не можемо створити користувача!")
